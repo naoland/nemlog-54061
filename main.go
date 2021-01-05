@@ -60,7 +60,7 @@ func getLastPrice(url string) (*Price, error) {
 }
 
 func sendlinemessage(message string) {
-	token := "KDJiqR84TRksLEwctIHgxrNrmgvbQ7hbuTwM3mEvgpV"
+	token := "Your access token"
 	api := "https://notify-api.line.me/api/notify"
 
 	values := url.Values{}
